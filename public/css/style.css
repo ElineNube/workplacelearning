@@ -830,6 +830,11 @@ div[class*=' styles_modalCenter'].panel {
   font-size: 16px;
   float: right;
 }
+.delete-tip {
+  font-size: 16px;
+  float: right;
+  margin-left: 10px;
+}
 .delete-tip-from-folder {
   font-size: 16px;
   float: right;
