@@ -3,6 +3,7 @@
 # WorkplaceLearning
 Master: [![Build Status](https://travis-ci.org/HUInstituteForICT/workplacelearning.svg?branch=master)](https://travis-ci.org/HUInstituteForICT/workplacelearning)
 Development: [![Build Status](https://travis-ci.org/HUInstituteForICT/workplacelearning.svg?branch=development)](https://travis-ci.org/HUInstituteForICT/workplacelearning)
+Quality gate:
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples.standard-sqscanner-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples.standard-sqscanner-travis-project)
 
 ## Getting Started
