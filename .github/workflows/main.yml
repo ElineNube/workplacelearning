@@ -1,12 +1,16 @@
-name: PHP Linting
-
+name: Audit live site
 on: push
 
 jobs:
-  phplint:
-
+  audit:
     runs-on: ubuntu-latest
-
     steps:
-        - uses: actions/checkout@v1
-        - uses: michaelw90/PHP-Lint@master
+    - name: Audit live URL
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        url: 'https://localhost/login'
+    - name: Upload results as an artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: report
+        path: './report'
