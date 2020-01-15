@@ -35,6 +35,8 @@ use App\SavedLearningItem
                             <h4>{{ __('tips.personal-tip') }}</h4>
                             <p>{!! nl2br($evaluatedTip->getTipText()) !!}</p>
                         </div>
+
+                        
                         @endif
                         @endforeach
                     @endif
