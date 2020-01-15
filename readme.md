@@ -4,6 +4,8 @@
 Master: [![Build Status](https://travis-ci.org/HUInstituteForICT/workplacelearning.svg?branch=master)](https://travis-ci.org/HUInstituteForICT/workplacelearning)
 Development: [![Build Status](https://travis-ci.org/HUInstituteForICT/workplacelearning.svg?branch=development)](https://travis-ci.org/HUInstituteForICT/workplacelearning)
 
+[![Build status](https://travis-ci.org/SonarSource/sq-com_example_standard-sqscanner-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_standard-sqscanner-travis) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples.standard-sqscanner-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples.standard-sqscanner-travis-project)
+
 ## Getting Started
 
 These instructions will help setup the development environment using docker
